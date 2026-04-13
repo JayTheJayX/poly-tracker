@@ -1,9 +1,9 @@
-# Polymarket High-Probability Market Finder
+# Polymarket Custom Market Finder
 
 A script to find and track high-probability outcomes on Polymarket.
 
 ## Features
-- Filters for outcomes with 80% to 95% probability.
+- Filters outcomes based on user-defined probability.
 - Excludes sports-related markets using category tags and keywords.
 - **Strict Volume Filter**: Excludes markets with less than $500 total volume.
 - Timeframe filter: Configurable window for market end dates (e.g., 1h to 60d).

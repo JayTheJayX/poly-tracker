@@ -6,8 +6,8 @@ from datetime import datetime, timedelta, timezone
 
 # Constants
 API_BASE_URL = "https://gamma-api.polymarket.com"
-MIN_PROB = 0.80
-MAX_PROB = 0.95
+MIN_PROB = 0.90
+MAX_PROB = 0.99
 RUN_DURATION_SEC = 600  # Run for 10 minutes
 POLL_INTERVAL_SEC = 60  # Check every minute
 MIN_VOLUME = 1000  # Minimum volume in dollars
@@ -19,7 +19,7 @@ CANDIDATE_LIMIT = 1000  # Number of top volume markets to fetch from API
 # Available categories include: "politics", "sports", "crypto", "finance", 
 # "geopolitics", "tech", "culture", "pop-culture", "economy", "weather", "mentions", "elections"
 # example["sports", "crypto", "mentions"]
-EXCLUDED_CATEGORIES = ["sports"]   
+EXCLUDED_CATEGORIES = ["elections"]   
 
 # Sports specific exclusion logic (extra strict)
 try:
